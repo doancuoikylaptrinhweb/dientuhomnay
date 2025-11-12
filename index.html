@@ -18,11 +18,45 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-sm bg-dark border-bottom border-2"
+      class="navbar navbar-expand-lg bg-dark border-bottom border-2"
       data-bs-theme="dark"
     >
-      <div class="container-fluid ms-5 me-5">
-        <a class="navbar-brand" href="#">Navbar</a>
+      <div class="container-fluid ms-lg-5 me-lg-5">
+        <a class="navbar-brand" href="#">VINHUNI</a>
+        <div class="d-lg-none dangnhap d-flex d-lg-flex">
+          <!-- đăng nhâp -->
+          <a class="btn btn-primary" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-person-circle"
+              viewBox="0 0 16 16"
+            >
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"></path>
+              <path
+                fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+              ></path>
+            </svg>
+          </a>
+          <!-- giỏ Hàng -->
+          <a href="#" class="nav nav-link">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-cart text-light-emphasis"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+              />
+            </svg>
+          </a>
+        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,26 +70,143 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
+            <!-- item1 -->
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-house"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"
+                  />
+                </svg>
+                <span class="align-middle">Home</span>
+              </a>
             </li>
+            <!-- item2 -->
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-shop-window"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5m2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5"
+                  />
+                </svg>
+                <span class="align-middle">Sản Phẩm</span>
+              </a>
             </li>
+            <!-- item 3 -->
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-people-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"
+                  />
+                </svg>
+                <span class="align-middle">Giới Thiệu</span>
+              </a>
             </li>
+            <!-- item 4 -->
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-file-earmark-text-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1z"
+                  />
+                </svg>
+                <span class="align-middle">Tin Tức</span>
+              </a>
             </li>
+            <!-- item 5 -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-envelope"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+                  />
+                </svg>
+                <span class="align-middle">Liên Hệ</span>
+              </a>
+            </li>
+            <!-- item3 -->
           </ul>
         </div>
       </div>
     </nav>
     <!-- ================================================================================== -->
-    <nav class="navbar bg-dark" data-bs-theme="dark">
-      <div class="container-fluid justify-content-between ms-5 me-5">
-        <form class="d-flex" role="search">
+    <nav
+      class="navbar bg-dark border-bottom border-4 sticky-top"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid justify-content-between ms-lg-5 me-lg-5">
+        <div class="dropdown">
+          <a
+            class="nav border border-2 p-2 rounded"
+            href=""
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-sliders"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1z"
+              />
+            </svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Danh Mục</a></li>
+            <li><a class="dropdown-item" href="#">Danh Mục</a></li>
+            <li><a class="dropdown-item" href="#">Danh Mục</a></li>
+            <li><a class="dropdown-item" href="#">Danh Mục</a></li>
+            <li><a class="dropdown-item" href="#">Danh Mục</a></li>
+            <li><a class="dropdown-item" href="#">Danh Mục</a></li>
+            <li><a class="dropdown-item" href="#">Danh Mục</a></li>
+            <li><a class="dropdown-item" href="#">Danh Mục</a></li>
+            <li><a class="dropdown-item" href="#">Danh Mục</a></li>
+          </ul>
+        </div>
+        <!-- --------------------------------------------------------- -->
+        <div class="d-flex" role="search">
           <input
             class="form-control me-2"
             type="search"
@@ -63,21 +214,108 @@
             aria-label="Search"
           />
           <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-        <div class="navbar-expand-sm dangnhap d-flex">
-          <a href="#" class="nav-link btn p-2 text-white text-uppercase text"
-            >Dang Nhap</a
-          >
-          <a href="#" class="nav-link btn p-2 ms-3 text-white text-uppercase"
-            >Dang Ky</a
-          >
-          <a
-            href="#"
-            class="nav-link text-white p-2 ms-3 border-start border-3 text-uppercase"
-            >Gio hang</a
-          >
+        </div>
+        <div class="navbar-expand-sm dangnhap d-flex d-none d-lg-flex">
+          <a class="btn btn-primary" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-person-circle"
+              viewBox="0 0 16 16"
+            >
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"></path>
+              <path
+                fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+              ></path>
+            </svg>
+            <span class="align-middle">Đăng Ký</span>
+          </a>
+          <a href="#" class="nav nav-link">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-cart text-light-emphasis"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+              />
+            </svg>
+            <span class="align-middle text-bg-dark">Giỏ Hàng</span>
+          </a>
         </div>
       </div>
     </nav>
+    <!-- ================================================================================== -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+      enim sunt laborum, saepe quasi debitis commodi porro dolorem quisquam,
+      dicta cum soluta est vel accusantium, odit possimus? Iste, officia qui.
+      Corporis sed quod, tempora, et harum animi dolores optio maxime
+      praesentium aspernatur quas aut iure odio vero ad consequuntur eaque vitae
+      minus commodi nihil molestiae. Dignissimos temporibus adipisci nisi
+      possimus? Ullam dolorum ducimus dolor sit optio quaerat dolores nostrum
+      dolore officiis quo, similique ea. Placeat laborum nesciunt quam modi
+      dicta odit omnis, beatae minima quia earum harum, laboriosam aliquam
+      molestiae. Officia magnam, distinctio est doloribus odio optio nisi? Id
+      perferendis ab vero? Placeat quasi perferendis beatae. Quisquam, delectus
+      distinctio tempore repudiandae voluptate provident. At labore nihil
+      laudantium! Veniam, maiores? Provident! Quasi nemo non iste ullam tenetur
+      nobis labore ipsa obcaecati quia culpa dolorum, odio ipsam amet vitae
+      possimus ex, consequuntur voluptates vero cupiditate. Non repudiandae
+      maiores sequi harum vel explicabo. Porro sunt incidunt corrupti ipsam
+      voluptate veniam nostrum? Labore distinctio pariatur ipsum architecto
+      blanditiis, molestiae suscipit voluptates tempora rerum! Minima
+      reiciendis, vel impedit animi accusamus incidunt quisquam velit
+      praesentium consequatur. Necessitatibus, et illum? Repellendus adipisci
+      distinctio maiores ipsum ullam. Labore, sapiente accusamus libero
+      explicabo animi perspiciatis, qui reiciendis magni ipsum at quos deleniti
+      odit aperiam eveniet dicta porro illum blanditiis. Sit ducimus tempora
+      rerum magnam quia dicta, tempore ipsum modi corporis animi debitis
+      perspiciatis, minima impedit! Quibusdam totam labore, illo, est unde ipsum
+      possimus alias aliquam numquam eos, eveniet error? Molestiae quas sit
+      labore laudantium repellat. Sint eum dicta quas, fuga blanditiis nam,
+      natus harum at quisquam nesciunt quos tenetur id alias ipsa, dolorum
+      voluptates voluptate! Voluptatem saepe cupiditate rerum. Sed doloremque
+      modi dolor magni aspernatur vel nulla cum? Iste omnis nisi quidem placeat
+      incidunt cupiditate deserunt consequatur sint. Consectetur harum veniam
+      recusandae ex debitis at possimus ullam optio quas. Amet earum, nostrum
+      molestias rem est voluptatibus vitae autem expedita esse minima ad ullam
+      maxime quis quisquam commodi totam. Fugit, praesentium vitae iure ex sint
+      odit ullam laudantium enim quibusdam? Numquam ipsa voluptas dignissimos
+      natus minima repudiandae eum labore voluptate veniam, autem amet nisi
+      optio quos repellat facilis maxime rerum officia iure reprehenderit quis
+      corporis voluptatibus quidem. Eaque, architecto minima. Eius minus placeat
+      esse dicta, quisquam a. Porro maxime quisquam officiis incidunt fuga
+      voluptate dolores illum ut eum perferendis necessitatibus quia mollitia
+      nisi, minus ab unde ullam pariatur animi repellat. Laborum deserunt cumque
+      quas earum, vel quibusdam, neque ea ipsa blanditiis inventore voluptates
+      quis praesentium illo iste placeat commodi aliquid reiciendis ipsam.
+      Praesentium adipisci ea sit iure repudiandae quidem esse? Laborum, ipsum
+      deserunt voluptatibus in architecto nulla illum officiis facere. Saepe id,
+      consequatur placeat obcaecati culpa voluptatum nulla officia enim
+      quibusdam iste pariatur incidunt eius aperiam, dolore, accusantium optio
+      autem. Vel et ut quas. Voluptatum fuga saepe repellat qui porro sint vel.
+      Qui excepturi, animi et odio accusamus soluta doloremque aliquid,
+      distinctio ducimus labore similique, exercitationem itaque sunt laborum
+      ipsam. Iure, rerum modi aspernatur culpa recusandae dolorem assumenda
+      dolorum quam incidunt. Aliquid quod porro magnam quo error rerum dolorum
+      ea veritatis maiores mollitia inventore voluptate, natus aperiam
+      doloremque optio beatae! Officiis, nesciunt consequatur, amet sit
+      doloribus odit aspernatur omnis molestiae quasi necessitatibus sequi autem
+      dignissimos voluptate at officia maxime iure, facilis repellat nemo. Qui,
+      rem maxime nam repellendus provident eos? Officiis quam incidunt odio
+      neque temporibus maxime. Impedit quos esse nihil blanditiis voluptatum
+      odit aperiam accusamus illo debitis, incidunt veritatis. Nihil beatae
+      dicta optio ad, maxime dignissimos eos possimus nulla. Quaerat nihil
+      reprehenderit magni labore cupiditate sit doloribus in harum qui, dolor
+      iure, facere ipsum tenetur, veniam nisi rem esse aut provident unde nemo?
+      Non dolorum cum qui sunt itaque?
+    </p>
   </body>
 </html>
