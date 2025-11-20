@@ -23,3 +23,22 @@
     margin: 0px;
   }
 }
+.sub {
+  margin-inline: 0px;
+}
+
+@media (min-width: 992px) {
+  .sub {
+    margin-inline: 350px;
+  }
+}
+
+.sub_list {
+  width: 11rem;
+}
+
+@media (min-width: 992px) {
+  .sub_list {
+    width: 20rem;
+  }
+}
