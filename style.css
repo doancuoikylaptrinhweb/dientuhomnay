@@ -206,3 +206,53 @@
 .danhmuc-tieude {
   border-radius: 5px 5px 0px 0px;
 }
+
+.w-if-70 {
+  width: 100%;
+}
+.w-if-30 {
+  width: 100%;
+}
+.w-if-50 {
+  width: 100%;
+}
+
+.w-40-50 {
+  width: 40%;
+}
+.w-60-50 {
+  width: 60%;
+}
+
+.wpx-md {
+  width: 140px;
+  height: 100px;
+}
+
+.bg-if-se {
+  background-color: none;
+}
+@media (min-width: 992px) {
+  .w-if-30 {
+    width: 30%;
+  }
+  .w-if-70 {
+    width: 70%;
+  }
+  .w-if-50 {
+    width: 50%;
+  }
+  .w-40-50 {
+    width: 50%;
+  }
+  .w-60-50 {
+    width: 50%;
+  }
+  .wpx-md {
+    width: 300px;
+    height: 200px;
+  }
+  .bg-if-se {
+    background-color: rgb(41, 41, 41);
+  }
+}
