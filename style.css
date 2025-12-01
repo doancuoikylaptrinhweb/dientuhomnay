@@ -293,10 +293,17 @@
 .p-if {
   padding: 10px;
 }
+
+.offcanvas-start {
+  width: 300px !important;
+}
 @media (min-width: 992px) {
   .p-if {
     padding-inline: 100px;
     padding-block: 40px;
     padding-bottom: 20px;
+  }
+  .offcanvas-start {
+    width: 400px !important;
   }
 }
